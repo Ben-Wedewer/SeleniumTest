@@ -26,6 +26,16 @@ public class EbayTest {
 		Thread.sleep(3000);
 		System.out.println("The page title is: " + driver.getTitle());		
 	}
+	
+	public void Navigate() throws InterruptedException{
+		Thread.sleep(2000);
+		driver.navigate().to("https://www.simplilearn.com/");
+		Thread.sleep(2000);
+		System.out.println("The title of the page is: " + driver.getTitle());
+		driver.navigate().back();
+		Thread.sleep(2000);
+		
+	}
 	//close browser
 	public void closebrowser() {
 		driver.quit();
@@ -34,6 +44,7 @@ public class EbayTest {
 		EbayTest obj = new EbayTest();
 		obj.LaunchBrowser();
 		obj.SearchProduct();
+		obj.Navigate();
 		obj.closebrowser();
 		//Test complete
 		//Adding a second commit to test commits of changed source
