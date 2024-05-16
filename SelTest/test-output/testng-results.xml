@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-16T15:17:16 MDT" name="Default suite" finished-at="2024-05-16T15:17:37 MDT" duration-ms="20354">
+    <groups>
+    </groups>
+    <test started-at="2024-05-16T15:17:16 MDT" name="Default test" finished-at="2024-05-16T15:17:37 MDT" duration-ms="20354">
+      <class name="basicweb.SeleniumFeaturesTest">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:16 MDT" name="LaunchBrowser" finished-at="2024-05-16T15:17:19 MDT" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="EnterSearchText()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:19 MDT" name="EnterSearchText" finished-at="2024-05-16T15:17:25 MDT" duration-ms="6119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSearchText -->
+        <test-method signature="FindAllInputs()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:25 MDT" name="FindAllInputs" finished-at="2024-05-16T15:17:26 MDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindAllInputs -->
+        <test-method signature="MouseHover()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:26 MDT" name="MouseHover" finished-at="2024-05-16T15:17:30 MDT" duration-ms="4390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHover -->
+        <test-method signature="ScrollBrowser()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:30 MDT" name="ScrollBrowser" finished-at="2024-05-16T15:17:32 MDT" duration-ms="2032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollBrowser -->
+        <test-method signature="SelectDropDown()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:32 MDT" name="SelectDropDown" finished-at="2024-05-16T15:17:34 MDT" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDropDown -->
+        <test-method signature="SizingTest()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:34 MDT" name="SizingTest" finished-at="2024-05-16T15:17:35 MDT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SizingTest -->
+        <test-method signature="VerifyTitle()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:35 MDT" name="VerifyTitle" finished-at="2024-05-16T15:17:35 MDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method signature="getCssProp()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:35 MDT" name="getCssProp" finished-at="2024-05-16T15:17:37 MDT" duration-ms="2048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssProp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:basicweb.SeleniumFeaturesTest@1c3b9394]" started-at="2024-05-16T15:17:37 MDT" name="closebrowser" finished-at="2024-05-16T15:17:37 MDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- basicweb.SeleniumFeaturesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
